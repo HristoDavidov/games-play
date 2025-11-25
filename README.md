@@ -18,4 +18,8 @@ SoftUni React Curse Workshop Project June-2024
  * Service layer architecture    
  * Abstract Requester
  * Add games api
-## 4. Page Implementations 
+ * Preseed practice server
+## 4. Page Implementations
+ * Game-list
+ * Details
+ * Home 

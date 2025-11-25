@@ -1,0 +1,18 @@
+{
+    "e93fbb3d-4197-483c-840d-2f8ccec900ca1": {
+        "title": "Satisfactory",
+        "category": " Adventure, Strategy",
+        "maxLevel": "10",
+        "imageUrl": "",
+        "summary": "Satisfactory is a first-person open-world factory building game with a dash of exploration and combat. Play alone or with friends, explore an alien planet, create multi-story factories, and enter conveyor belt heaven!",
+        "_id": "e93fbb3d-4197-483c-840d-2f8ccec900ca"
+    },
+    "9ed8aa50-e854-4d52-b7e2-c3105c32a56c2": {
+        "title": "EVE ONLINE",
+        "category": "Space Simulator",
+        "maxLevel": "10",
+        "imageUrl": "",
+        "summary": "Over 20 years of legendary space battles! Explore a massive living universe of danger and opportunity in a challenging and highly rewarding space adventure. Fight, trade, build, and connect with a universe driven and shaped directly by players.",
+        "_id": "9ed8aa50-e854-4d52-b7e2-c3105c32a56c"
+    }
+}
