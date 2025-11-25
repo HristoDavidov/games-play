@@ -17,4 +17,5 @@ SoftUni React Curse Workshop Project June-2024
 ## Create Service Layer 
  * Service layer architecture    
  * Abstract Requester
+ * Add games api
 ## 4. Page Implementations 
