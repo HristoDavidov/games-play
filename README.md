@@ -13,3 +13,4 @@ SoftUni React Curse Workshop Project June-2024
  * Install react-router-dom
  * Setup react-router-dom
  * Add routes in App.jsx
+ * Add links in the navigation
