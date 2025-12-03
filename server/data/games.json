@@ -3,7 +3,7 @@
         "title": "Satisfactory",
         "category": " Adventure, Strategy",
         "maxLevel": "10",
-        "imageUrl": "",
+        "imageUrl": "https://content-assets.eneba.games/clp/c515e89e-3406-4f84-aa3c-8440929a0c17.png",
         "summary": "Satisfactory is a first-person open-world factory building game with a dash of exploration and combat. Play alone or with friends, explore an alien planet, create multi-story factories, and enter conveyor belt heaven!",
         "_id": "e93fbb3d-4197-483c-840d-2f8ccec900ca"
     },
@@ -11,7 +11,7 @@
         "title": "EVE ONLINE",
         "category": "Space Simulator",
         "maxLevel": "10",
-        "imageUrl": "",
+        "imageUrl": "https://cdn.mos.cms.futurecdn.net/DCe3TgUE4e7fXPMegcde6C-650-80.jpg.webp",
         "summary": "Over 20 years of legendary space battles! Explore a massive living universe of danger and opportunity in a challenging and highly rewarding space adventure. Fight, trade, build, and connect with a universe driven and shaped directly by players.",
         "_id": "9ed8aa50-e854-4d52-b7e2-c3105c32a56c"
     }
