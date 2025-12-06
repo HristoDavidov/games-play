@@ -22,4 +22,13 @@ SoftUni React Curse Workshop Project June-2024
 ## 4. Page Implementations
  * Game-list
  * Details
- * Home 
+    * Details link
+    * Details route
+    * Api function - getOne
+ * Home - Latest Games
+ ## 5. Comments
+    * Create service for nested resurce 'comments'
+    * Post comment to server
+    * Read comments from server
+    * Add comments in the commponent
+    * Clear form
