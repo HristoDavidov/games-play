@@ -1,20 +1,11 @@
-import { useEffect, useState } from 'react';
-
-import * as gamesAPI from '../../api/games-api';
-
+import { useGetAllGames } from '../../hooks/useGames';
 import GameListItem from './game-list-item/GameListItem';
 
 export default function GameList() {
 
-    const [games, setGames] = useState([]);
-
-    useEffect(() => {
-        gamesAPI.getAll()
-            .then(result => setGames(result));
-    }, []);
+    const [games] = useGetAllGames();
 
     return (
-
         <section id="catalog-page">
             <h1>All Games</h1>
             {/*<!-- Display div: with information about every game (if any) --> */}
@@ -23,11 +14,7 @@ export default function GameList() {
                 ? games.map(game => <GameListItem key={game._id} {...game} />) 
                 : <h3 className="no-articles">No games yet</h3>
             }
-            {/* <!-- Display paragraph: If there is no games  --> */}
-            
-
-
-            
+            {/* <!-- Display paragraph: If there is no games  --> */}   
         </section>
     );
 }
