@@ -26,9 +26,26 @@ SoftUni React Curse Workshop Project June-2024
     * Details route
     * Api function - getOne
  * Home - Latest Games
- ## 5. Comments
-    * Create service for nested resurce 'comments'
-    * Post comment to server
-    * Read comments from server
-    * Add comments in the commponent
-    * Clear form
+## 5. Comments
+ * Create service for nested resurce 'comments'
+ * Post comment to server
+ * Read comments from server
+ * Add comments in the commponent
+ * Clear form
+## 6. API Hooks
+ * Form Hook
+ * GameAPI Hooks
+ * Comment Hooks
+## 7. Authentication
+ * Auth API
+ * Auth API hook
+ * Auth state & context
+ * Login
+ * Register
+ * Logout
+## 8. UI Implementation
+ * Dynamic navigation
+ * Create game
+   * API function
+   * Create hook
+    
