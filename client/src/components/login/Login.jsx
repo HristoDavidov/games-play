@@ -1,24 +1,30 @@
 import { useLogin } from "../../hooks/useAuth";
 import { useForm } from "../../hooks/useForm";
 
-import { useNavigate} from "react-router-dom";
+import { useNavigate } from "react-router-dom";
+
+const initialValues = { email: '', password: '' };
 
 export default function Login() {
 
     const login = useLogin();
     const navigate = useNavigate();
 
-    const {values, changeHandler, submitHandler} = useForm({ email: '', password: '' },
-    ({ email, password }) => {
-
+    const loginHandler = ({ email, password }) => {
         try {
             login(email, password);
             navigate('/');
         } catch (err) {
-            console.log(err.message);   
+            console.log(err.message);
         }
-        
-    });
+    };
+
+    const {
+        values,
+        changeHandler,
+        submitHandler,
+    } = useForm(initialValues, loginHandler);
+
 
     return (
 
@@ -28,19 +34,19 @@ export default function Login() {
                     <div className="brand-logo"></div>
                     <h1>Login</h1>
                     <label htmlFor="email">Email:</label>
-                    <input 
-                        type="email" 
-                        id="email" 
+                    <input
+                        type="email"
+                        id="email"
                         name="email"
                         value={values.email}
                         onChange={changeHandler}
-                        placeholder="Sokka@gmail.com" 
+                        placeholder="Sokka@gmail.com"
                     />
 
                     <label htmlFor="login-pass">Password:</label>
-                    <input 
-                        type="password" 
-                        id="login-password" 
+                    <input
+                        type="password"
+                        id="login-password"
                         name="password"
                         value={values.password}
                         onChange={changeHandler}
