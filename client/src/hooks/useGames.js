@@ -12,7 +12,7 @@ export function useGetAllGames() {
     }, []);
 
     return [games, setGames];
-}
+};
 
 export function useGetOneGames(gameId) {
 
@@ -33,4 +33,12 @@ export function useGetOneGames(gameId) {
         setGame,
     ];
 
-}
+};
+
+export function useCreateGame () {
+
+    const gameCreateHandler = (gameData) => gamesAPI.create(gameData);
+    
+
+    return gameCreateHandler;
+};
