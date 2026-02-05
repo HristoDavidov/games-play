@@ -8,14 +8,14 @@ export default function Login() {
     const login = useLogin();
     const navigate = useNavigate();
 
-    const {values, changeHandler, submitHandler} = useForm({ email: '', password: '' }, ({ email, password }) => {
+    const {values, changeHandler, submitHandler} = useForm({ email: '', password: '' },
+    ({ email, password }) => {
 
         try {
             login(email, password);
             navigate('/');
         } catch (err) {
-            console.log(err.message);
-            
+            console.log(err.message);   
         }
         
     });

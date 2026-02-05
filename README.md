@@ -40,9 +40,11 @@ SoftUni React Curse Workshop Project June-2024
  * Auth API
  * Auth API hook
  * Auth state & context
+ * Token management
  * Login
  * Register
  * Logout
+ * Authorized Requests
 ## 8. UI Implementation
  * Dynamic navigation
  * Create game
