@@ -2,7 +2,7 @@ import { useNavigate } from "react-router-dom";
 import { useForm } from "../../hooks/useForm";
 import { useCreateGame } from "../../hooks/useGames";
 
-initialValues = {
+const initialValues = {
     title: '',
     category: '',
     maxlevel: '',
