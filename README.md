@@ -51,4 +51,6 @@ SoftUni React Curse Workshop Project June-2024
    * API function
    * Create hook
  * Latest games
+## 9. Refactoring
+ * Extract auth state from App Component
     

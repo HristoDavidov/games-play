@@ -1,5 +1,4 @@
 import { Routes, Route } from 'react-router-dom'
-import { useState } from 'react'
 
 import Header from "./components/header/Header"
 import Home from './components/home/Home'
@@ -8,30 +7,14 @@ import Register from './components/register/Rgister'
 import GameList from './components/game-list/GameList'
 import GameCreate from './components/game-create/GameCreate'
 import GameDetails from './components/game-details/GameDetails'
-import { AuthContext } from './contexts/AuthContext'
+import { AuthContextProvider } from './contexts/AuthContext'
 
 
 function App() {
   //TODO: remove this from App component
-  const [authState, setAuthState] = useState({});
-
-  const changeAuthState = (state) => {
-    
-    localStorage.setItem('accessToken', state.accessToken);
-
-    setAuthState(state);
-  };
-
-  const contextData = {
-    userId: authState._id,
-    email: authState.email,
-    accessToken: authState.accessToken,
-    isAuthenticated: !!authState.email,
-    changeAuthState,
-  };
 
   return (
-    <AuthContext.Provider value={contextData}>
+    <AuthContextProvider>
       <div id="box">
 
         <Header />
@@ -48,7 +31,7 @@ function App() {
         </main>
 
       </div>
-    </AuthContext.Provider>
+    </AuthContextProvider>
   )
 }
 
