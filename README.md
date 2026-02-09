@@ -53,4 +53,5 @@ SoftUni React Curse Workshop Project June-2024
  * Latest games
 ## 9. Refactoring
  * Extract auth state from App Component
+ * Persist auth state
     
